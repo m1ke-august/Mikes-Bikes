@@ -1,61 +1,276 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
-
-* {
-    box-sizing: border-box;
-    margin: 0; 
-    padding: 0;
-    background-color: #24252A;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin: 0;
+    font-family:"Roboto", sans-serif;
+    font-weight:500;
 }
 
-li, a, button {
-    font-family: "Amatic", sans-serif;
-    font-weight:500;
-    font-size:24px;
-    color: #ECF0F1;
-    text-decoration: none;
+.background{
+    background-color: #363434 ;
+    background-image: url() ;
+}
+
+.carouselbg{
+    background-color: #363434;
+}
+
+.container{
+    width:90%;
+    margin: 0 auto;
 }
 
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
+    background: #8b171a ;
 }
 
 .logo{
-    cursor: pointer;
-}
-
-.nav-link{
-    list-style: none;
-}
-
-.nav-link li{
-    display: inline-block;
-    padding: 0 20px;
-}
-
-.nav-link li a{ 
-    transition: all 0.3s ease 0s;
-}
-
-.nav-link li a:hover{ 
-    color:#0088A9
-}
-
-button{
-    padding:9px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border:none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-button:hover{
-    background-color: rgba(0, 136, 169, 0.8);
+    float: left;
+    padding: 20px;
 }
 
 nav{
-    width:100;
+    text-align: center;
+}
+
+.clearfix{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+nav li{
+    display: inline-block;
+    margin-left: 100px;
+    padding-top: 45px;
+    position: relative;
+    right: 150px;
+
+    position: relative;
+}
+
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+
+nav a:hover{
+    color: #686666;
+}
+
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+
+    background-color: #686666;
+    transition: all ease-in-out 250ms;
+    
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+}
+
+nav a:hover::before{
+    width: 100%;
+
+}
+
+.carousel{
+    border-radius:30px;
+    padding-top: 8px;
+}
+
+
+.button{
+    border: none;
+    background-color: rgb(143, 138, 138);
+    width:100px;
+    height:50px;
+    position: relative;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    float: right;
+    bottom: 55px;
+}
+
+.button:hover{
+    background-color: #686666;
+}
+
+.formalign{
+    width: 550px;
+    height:auto;
+    position: relative;
+    left:30%;
+    background-color:#686666;
+    border-radius: 15px;
+    padding: 15px 8px;
+    margin-bottom: 20px;
+}
+
+.logintxt{
+    color: white;
+}
+
+.warningtxt{
+    color: rgb(255, 0, 0);
+    font-size: 16px;
+    font-weight:bold;
+    padding-bottom: 8px;
+    text-transform:uppercase
+}
+
+p5{
+    color: white;
+    font-size: 35px;
+    position: relative;
+    left: 47%;
+    text-decoration:underline;
+}
+
+.p5{
+    color: white;
+    font-size: 35px;
+    position: relative;
+    left: 45%;
+    text-decoration: underline;
+}
+
+.loginbtn{
+    background-color: rgb(143, 138, 138, 1)
+
+}
+
+.loginbtn:hover{
+    background-color: rgb(143, 138, 138, 0.5)
+}
+
+.signupbtn{
+    background-color: rgb(143, 138, 138, 1)
+
+}
+
+.signupbtn:hover{
+    background-color: rgb(143, 138, 138, 0.5)
+}
+
+.anotherbutton{
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    float: right;
+    padding: 0 5px;
+    position: relative;
+}
+
+.anotherbutton:hover{
+    text-decoration: none;
+    color: #363434; 
+}
+
+
+.anotherbutton::before{
+    content: '';
+    display: block;
+    height: 5px;
+
+    background-color: #363434;
+    transition: all ease-in-out 250ms;
+    position: absolute;
+    bottom:0;
+    width: 0%;
+}
+
+.anotherbutton:hover::before{
+    width: 95%;
+}
+
+
+.carouselshopbtn{
+    color: white;
+    font-size: 25px;
+    font-family:"Roboto", sans-serif;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(78, 78, 78, 1);
+    width: 250px;
+    position: absolute;
+    left: 262px;
+    bottom: 15px;
+    cursor: pointer;
+}
+
+.carouselshopbtn:hover{
+    background-color: rgb(78, 78, 78, 0.6);
+
+}
+
+.dropdownbtn{
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    bottom: 3px;
+    
+}
+
+.dropdownbtn:hover{
+    color: #686868;
+}
+
+
+.dropdownbtn::before{
+    content: '';
+    display: block;
+    height: 5px;
+
+    background-color: #686666;
+    transition: all ease-in-out 250ms;
+    
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+}
+
+.dropdownbtn:hover::before{
+    width: 90%;
+
+}
+
+.dropdownbtnoptions{
+    background-color: #3e3e3e;
+    border-radius: 15px;
+}
+
+.dropdownmenutext{
+    color: white;
+    background-color: transparent;
+    font-size: 25px;
+
+}
+
+.dropdownmenutext:hover{
+    background-color: transparent;
+    color: #686666;
+}
+
+.check{
+    background-color: white;
 }
