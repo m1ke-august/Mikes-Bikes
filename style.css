@@ -6,26 +6,30 @@ body{
 }
 
 .background{
-    background-color: #363434 ;
-    background-image: url() ;
+    background-color:rgb(182, 181, 181);
 }
 
 .carouselbg{
-    background-color: #363434;
+    background-color:rgb(182, 181, 181);
 }
 
 .container{
     width:90%;
+    height: 100%;
     margin: 0 auto;
+    
 }
 
 header{
-    background: #8b171a ;
+    background-color: #344407;
+    height: 100px;
 }
 
 .logo{
     float: left;
     padding: 20px;
+    width: 100px;
+    height: 100px;
 }
 
 nav{
@@ -49,7 +53,7 @@ nav ul{
 nav li{
     display: inline-block;
     margin-left: 100px;
-    padding-top: 45px;
+    padding-top: 25px;
     position: relative;
     right: 150px;
 
@@ -66,7 +70,7 @@ nav a{
 
 
 nav a:hover{
-    color: #686666;
+    color: #f4d06f;
 }
 
 
@@ -75,7 +79,7 @@ nav a::before{
     display: block;
     height: 5px;
 
-    background-color: #686666;
+    background-color: #f4d06f;
     transition: all ease-in-out 250ms;
     
     position: absolute;
@@ -89,14 +93,13 @@ nav a:hover::before{
 }
 
 .carousel{
-    border-radius:30px;
-    padding-top: 8px;
+    border-radius:20px;
 }
 
 
 .button{
     border: none;
-    background-color: rgb(143, 138, 138);
+    background-color:#c09316;
     width:100px;
     height:50px;
     position: relative;
@@ -108,7 +111,9 @@ nav a:hover::before{
 }
 
 .button:hover{
-    background-color: #686666;
+    background-color: #c09316;
+    opacity: 0.7;
+    transition: 0.3s ease 0s;
 }
 
 .formalign{
@@ -216,8 +221,8 @@ p5{
 }
 
 .carouselshopbtn:hover{
-    background-color: rgb(78, 78, 78, 0.6);
-
+    background-color: black;
+    transition: all ease-in-out 300ms;
 }
 
 .dropdownbtn{
@@ -232,7 +237,7 @@ p5{
 }
 
 .dropdownbtn:hover{
-    color: #686868;
+    color: #f4d06f;
 }
 
 
@@ -241,7 +246,7 @@ p5{
     display: block;
     height: 5px;
 
-    background-color: #686666;
+    background-color: #f4d06f;
     transition: all ease-in-out 250ms;
     
     position: absolute;
@@ -255,7 +260,7 @@ p5{
 }
 
 .dropdownbtnoptions{
-    background-color: #3e3e3e;
+    background-color: #344407;
     border-radius: 15px;
 }
 
@@ -268,9 +273,20 @@ p5{
 
 .dropdownmenutext:hover{
     background-color: transparent;
-    color: #686666;
+    color: #f4d06f;
 }
 
 .check{
     background-color: white;
 }
+
+.carouselpos{
+    padding-top: 25px;
+}
+
+.bodytext{
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
