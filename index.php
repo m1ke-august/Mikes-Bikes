@@ -1,3 +1,12 @@
+<?php
+	
+session_start();
+if(!isset($_SESSION['user'])){
+	header('location:includes/login.php');
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -37,7 +46,7 @@
                         <li><a href="includes/tipsandtricks.html">Tips & Tricks</a></li>
                     </ul>
                 </nav>
-                <a href="includes/login.html"><button class="button">Login</button></a>
+                <a href="logout.php"><button class="button">Logout</button></a>
 
             </div>
         </header>
@@ -78,9 +87,13 @@
             </div>
       </header>
       <div class="container bodytext">
-        <div class="col-sm-6 float-left">
+        <div class="col-sm-6 float-left historybox">
+          <h2 class="historyheader">Mikes Bikes History</h2>
+          <p1 class="history">Mikes Bikes was established in 2022 by 3 Rongotai College Year 13 students as a project for their programming class. These students had the ambition to make a mountain bike website that could be a one stop shop for all riders with skill levels from beginners to professionals. The students goal for the site was to ensure that all riders are able to benefit from the site with ease and don’t have to go to other sources in order to find products or relevant information about mountain biking. </p1>
         </div>
-        <div class="col-sm-6 float-right">
+        <div class="col-sm-6 float-right historyboxx">
+          <h2 class="historyheader">Mikes Bikes History</h2>
+          <p1 class="history">Mikes Bikes was established in 2022 by 3 Rongotai College Year 13 students as a project for their programming class. These students had the ambition to make a mountain bike website that could be a one stop shop for all riders with skill levels from beginners to professionals. The students goal for the site was to ensure that all riders are able to benefit from the site with ease and don’t have to go to other sources in order to find products or relevant information about mountain biking. </p1>
         </div>
       </div>
       

@@ -94,6 +94,7 @@ nav a:hover::before{
 
 .carousel{
     border-radius:20px;
+
 }
 
 
@@ -127,8 +128,29 @@ nav a:hover::before{
     margin-bottom: 20px;
 }
 
+.loginform{
+    width: 550px;
+    height:auto;
+    position: relative;
+    left:13%;
+    top:25px;
+    background-color:#686666;
+    border-radius: 15px;
+    padding: 15px 8px;
+    margin-bottom: 20px;
+}
+
+
 .logintxt{
     color: white;
+
+}
+
+.loginhead{
+    color: white;
+    position: relative;
+    left: 15%;
+    top: 25px;
 }
 
 .warningtxt{
@@ -290,3 +312,38 @@ p5{
     text-decoration: underline;
 }
 
+.history{
+    font-size: 20px;
+    display: inline-block;
+    width: 400px;
+}
+
+.historyheader{
+    padding-top: 15px;
+    color: black;
+    text-decoration: underline;
+    text-transform:uppercase;
+    position: relative;
+    left: 30px;
+}
+
+.historybox{
+    width: 550px;
+    height: 500px;
+    background-color: red;
+    position: relative;
+    right: 150px;
+    top: 12px;
+    border-radius: 15px;
+
+}
+
+.historyboxx{
+    width: 550px;
+    height: 500px;
+    background-color: red;
+    position: relative;
+    left: 150px;
+    top: 12px;
+    border-radius: 15px;
+}

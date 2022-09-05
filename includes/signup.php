@@ -1,4 +1,9 @@
-
+<?php
+	
+session_start();	
+	
+	
+?>
 
 <!DOCTYPE html>
 <html>
@@ -40,24 +45,40 @@
 
             </div>
         </header>
-        <p5 class="logintxt">Login</p5>
-        <form action="../verify.php" method="post" class="loginform formalign">
-            <small id="emailHelp" class="form-text warningtxt">We'll never share your login credentials with others.</small>
-
+        <p5 class="p5">Sign-Up</p5>
+        <form class="formalign" action="../connect.php" method="post" >
+            <small id="emailHelp" class="form-text warningtxt">We'll never share your login credentials with others trust.</small>
+            
             <div class="form-group">
-                <label for="username" class="logintxt">Username</label>
-                <input type ="username" class="form-control" id="username" name="username" placeholder="Enter Username">
+                <label for="exampleInputFirstName1" class="logintxt">First name</label>
+                <input type="name" class="form-control" id="firstName" placeholder="Enter First Name" name="firstName">
             </div>
             <div class="form-group">
-                <label for="password" class="logintxt">Password</label>
-                <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                <label for="exampleInputLastName1" class="logintxt">Last name</label>
+                <input type="name" class="form-control" id="lastName" placeholder="Enter Last Name" name="lastName"> 
+            </div>
+            <div class="form-group">
+                <label for="user" class="logintxt">Username</label>
+                <input type ="user" class="form-control" id="user"  name="user" placeholder="Enter Username">
+            </div>
+            <div class="form-group">
+                <label for="email" class="logintxt">Email</label>
+                <input type ="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" placeholder="Enter Email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1" class="logintxt">Mobile Number</label>
+                <input type="number" class="form-control" id="number" placeholder="number" name="mobile">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1" class="logintxt">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password" name="password">
             </div>
             <div class="form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label logintxt" for="exampleCheck1">Not a robot</label>
-                <a href="signup.html" class="anotherbutton">I don't have an account</a>                
+                <label class="form-check-label logintxt" for="exampleCheck1">Receive email notifications and offers</label>
+                
             </div>
-            <a><button type="submit" class="btn loginbtn">Login</button></a>
+            <a><button type="submit" class="btn signupbtn" >Sign Up</button></a>
         </form>
       
     </body>
