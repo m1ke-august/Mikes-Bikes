@@ -47,13 +47,13 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class=" carouselsize carousel-inner" >
             <div class="carousel-item active ">
-            <img class="d-block w-100 carousel" src="images/topfuel.jpg" alt="First slide">
+            <img class="d-block w-100 carousel" src="../images/moreinfo/rockhopper/rockhopper1.webp" alt="First slide">
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100 carousel" src="images/topfuel.jpg" alt="Second slide">
+            <img class="d-block w-100 carousel" src="../images/moreinfo/rockhopper/rockhopper2.webp" alt="Second slide">
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100 carousel" src="images/topfuel.jpg" alt="Third slide">
+            <img class="d-block w-100 carousel" src="../images/moreinfo/rockhopper/rockhopper3.webp" alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev carousel-control-prev2" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -67,8 +67,8 @@
         </div>
 
         <div>
-            <h class="heading">Bike name here</h>
-            <p class="description" >Enter description in here</p>
+            <h class="heading">Rockhopper 27.5</h>
+            <p class="description" >Better performance. Better value. Better Rockhopper. By tapping the fit and handling advantages of pairing each rider with their ideal suspension that works its hardest for everyone thanks to our size-specific Rx Tune, we’ve baked in added performance to the all-new Rockhopper. Shimano and MicroSHIFT team up for drivetrain duties with a robust 2x8 drivetrain that can handle everything you’re throw down while confident braking from Radius CX7 mechanical disc brakes seals the deal of the century. A heart of gold, presented in our lightweight yet durable Premium A1 Aluminum, the Rockhopper’s butted aluminum frame features hydroformed top and downtubes in order to keep weight low and strength high, all while providing increased standover clearance, slick internal cable routing and dropper-post compatibility. For the price of $950.00 you get a entry level hard tail that is fun to ride.</p>
         </div>
         <div>
             <a href="#"><button class="buynow">Buy Now</button></a>

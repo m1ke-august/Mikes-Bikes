@@ -77,7 +77,7 @@
                     <p class="card-text">
                     Better Performance. Better Value. Better Rockhopper by tapping the fit and handling advantages of pairing each rider with their dieal wheel size and suspension that works its hardest for everyone thanks to our size specific Rx Tune, we've baked in added performance to the All New Rockhopper without dialing up the price. At $950.00 you get a smoking deal for your first mountain bike. Click below to learn more!
                     </p>
-                    <a href="#!" class="btn btn-primary">Learn More</a>
+                    <a href="../learnmore/rockhopper.php" class="btn btn-primary">Learn More</a>
                 </div>
                 </div>
             </div>
@@ -94,7 +94,7 @@
                     <p class="card-text">
                     The Stumpjumper Evo Pro is a testament to full-gas trail performance. With an all-new design, from its S-Sizing geometry with an adjustable head tube angle, to its 150mm of shread-ready travel, this thing is a full-on ripper. And to top if off, it's build has been hand-picked to keep overall weight low and stokes high. For the price of $15,600.00 you get a bike that's going to last forever. Click below to learn more!
                     </p>
-                    <a href="#!" class="btn btn-primary">Learn More</a>
+                    <a href="../learnmore/stumpjumper.php" class="btn btn-primary">Learn More</a>
                 </div>
                 </div>
             </div>
@@ -102,65 +102,7 @@
         </div>
         </div>
 
-            <!-- Inner -->
-    <div class="carousel-inner py-4">
-        <!-- Single item -->
-        <div class="carousel-item active ">
-        <div class="container">
-            <div class="row">
-            <div class="col-lg-4">
-                <div class="card">
-                <img
-                    src="../images/turboelectric.webp"
-                    class="card-img-top"
-                    alt=""
-                />
-                <div class="card-body ">
-                    <h5 class="card-title">Turbo Tero 5.0</h5>
-                    <p class="card-text">
-                    The ALL NEW Specialized Turbo Tero 5.0 is an electric mountain bike equipped for daily rides. A mountain bike that you can commute on. A commuter you can take touring. A touring bike that you can haul freight with. Whatever you need it to be it can be. The Turbo Tero is a true do-it-all superhero. At a fair price of $9,000.00 you get a stunning bike. Click below to learn more!
-                    </p>
-                    <a href="#!" class="btn btn-primary">Learn More</a>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 d-none d-lg-block">
-                <div class="card">
-                <img
-                    src="../images/rockhopper.webp"
-                    class="card-img-top"
-                    alt=""
-                />
-                <div class="card-body">
-                    <h5 class="card-title">Rockhopper 27.5</h5>
-                    <p class="card-text">
-                    Better Performance. Better Value. Better Rockhopper by tapping the fit and handling advantages of pairing each rider with their dieal wheel size and suspension that works its hardest for everyone thanks to our size specific Rx Tune, we've baked in added performance to the All New Rockhopper without dialing up the price. At $950.00 you get a smoking deal for your first mountain bike. Click below to learn more!
-                    </p>
-                    <a href="#!" class="btn btn-primary">Learn More</a>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 d-none d-lg-block">
-                <div class="card">
-                <img
-                    src="../images/stumpjumper.webp"
-                    class="card-img-top"
-                    alt=""
-                />
-                <div class="card-body">
-                    <h5 class="card-title">Stumpjumper Evo Pro</h5>
-                    <p class="card-text">
-                    The Stumpjumper Evo Pro is a testament to full-gas trail performance. With an all-new design, from its S-Sizing geometry with an adjustable head tube angle, to its 150mm of shread-ready travel, this thing is a full-on ripper. And to top if off, it's build has been hand-picked to keep overall weight low and stokes high. For the price of $15,600.00 you get a bike that's going to last forever. Click below to learn more!
-                    </p>
-                    <a href="#!" class="btn btn-primary">Learn More</a>
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
+    
 
         <div class="shop">
     <p2 class="specialized">Trek</p2>
@@ -224,65 +166,7 @@
         </div>
         </div>
 
-            <!-- Inner -->
-    <div class="carousel-inner py-4">
-        <!-- Single item -->
-        <div class="carousel-item active ">
-        <div class="container">
-            <div class="row">
-            <div class="col-lg-4">
-                <div class="card">
-                <img
-                    src="../images/turboelectric.webp"
-                    class="card-img-top"
-                    alt=""
-                />
-                <div class="card-body ">
-                    <h5 class="card-title">Turbo Tero 5.0</h5>
-                    <p class="card-text">
-                    The ALL NEW Specialized Turbo Tero 5.0 is an electric mountain bike equipped for daily rides. A mountain bike that you can commute on. A commuter you can take touring. A touring bike that you can haul freight with. Whatever you need it to be it can be. The Turbo Tero is a true do-it-all superhero. At a fair price of $9,000.00 you get a stunning bike. Click below to learn more!
-                    </p>
-                    <a href="#!" class="btn btn-primary">Learn More</a>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 d-none d-lg-block">
-                <div class="card">
-                <img
-                    src="../images/rockhopper.webp"
-                    class="card-img-top"
-                    alt=""
-                />
-                <div class="card-body">
-                    <h5 class="card-title">Rockhopper 27.5</h5>
-                    <p class="card-text">
-                    Better Performance. Better Value. Better Rockhopper by tapping the fit and handling advantages of pairing each rider with their dieal wheel size and suspension that works its hardest for everyone thanks to our size specific Rx Tune, we've baked in added performance to the All New Rockhopper without dialing up the price. At $950.00 you get a smoking deal for your first mountain bike. Click below to learn more!
-                    </p>
-                    <a href="#!" class="btn btn-primary">Learn More</a>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 d-none d-lg-block">
-                <div class="card">
-                <img
-                    src="../images/stumpjumper.webp"
-                    class="card-img-top"
-                    alt=""
-                />
-                <div class="card-body">
-                    <h5 class="card-title">Stumpjumper Evo Pro</h5>
-                    <p class="card-text">
-                    The Stumpjumper Evo Pro is a testament to full-gas trail performance. With an all-new design, from its S-Sizing geometry with an adjustable head tube angle, to its 150mm of shread-ready travel, this thing is a full-on ripper. And to top if off, it's build has been hand-picked to keep overall weight low and stokes high. For the price of $15,600.00 you get a bike that's going to last forever. Click below to learn more!
-                    </p>
-                    <a href="#!" class="btn btn-primary">Learn More</a>
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
+     
 
     
     

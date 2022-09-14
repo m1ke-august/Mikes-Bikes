@@ -47,13 +47,28 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class=" carouselsize carousel-inner" >
             <div class="carousel-item active ">
-            <img class="d-block w-100 carousel" src="images/topfuel.jpg" alt="First slide">
+            <img class="d-block w-100 carousel" src="../images/moreinfo/stumpjumper/stumpjumper1.webp" alt="First slide">
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100 carousel" src="images/topfuel.jpg" alt="Second slide">
+            <img class="d-block w-100 carousel" src="../images/moreinfo/stumpjumper/stumpjumper2.webp" alt="Second slide">
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100 carousel" src="images/topfuel.jpg" alt="Third slide">
+            <img class="d-block w-100 carousel" src="../images/moreinfo/stumpjumper/stumpjumper3.webp" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100 carousel" src="../images/moreinfo/stumpjumper/stumpjumper4.webp" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100 carousel" src="../images/moreinfo/stumpjumper/stumpjumper5.webp" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100 carousel" src="../images/moreinfo/stumpjumper/stumpjumper6.webp" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100 carousel" src="../images/moreinfo/stumpjumper/stumpjumper7.webp" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100 carousel" src="../images/moreinfo/stumpjumper/stumpjumper8.webp" alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev carousel-control-prev2" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -67,8 +82,8 @@
         </div>
 
         <div>
-            <h class="heading">Bike name here</h>
-            <p class="description" >Enter description in here</p>
+            <h class="heading">Stumpjumper Evo Pro</h>
+            <p class="description" >The Stumpjumper EVO Pro is a testament to full-gas trail performance. With an all-new design, from its S-Sizing geometry with an adjustable head tube angle, to its 150mm of shred-ready travel, this thing is a full-on ripper. And to top it off, it’s build has been hand-picked to keep overall weight low and stoke high. Rider-First Engineered™ frames use a size-specific approach to ride characteristics that ensures benchmark handling and flawless performance, regardless of frame or rider size. Whether you’re a jump-happy grom riding an S1, or a DH-fiend giant in need of the lengthy S6, you’ll experience the same ride traits – rail-sharp cornering and balanced front and rear stiffness – at the lightest-possible weight. The Stumpjumper costs $15,600.00 however you get a bike that is durable and modern while still obtaining good riding characteristics and can fly round berms at high speed. </p>
         </div>
         <div>
             <a href="#"><button class="buynow">Buy Now</button></a>
