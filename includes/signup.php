@@ -37,16 +37,16 @@ session_start();
                            <p class="dropdown-item dropdownmenutext" href="#">Parts</p>
                            <p class="dropdown-item dropdownmenutext" href="#">Gear & Accessories</p>
                          </li>
-                        <li><a href="trails.html">Trails</a></li>
-                        <li><a href="tipsandtricks.html">Tips & Tricks</a></li>
+                        <li><a href="trails.php">Trails</a></li>
+                        <li><a href="tipsandtricks.php">Tips & Tricks</a></li>
                     </ul>
                 </nav>
-                <a href="login.html"><button class="button">Login</button></a>
+                
 
             </div>
         </header>
         <p5 class="p5">Sign-Up</p5>
-        <form class="formalign" action="../connect.php" method="post" >
+        <form class="formalign" action="../database/connect.php" method="post" >
             <small id="emailHelp" class="form-text warningtxt">We'll never share your login credentials with others trust.</small>
             
             <div class="form-group">

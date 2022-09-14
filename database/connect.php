@@ -1,7 +1,7 @@
 <?php
 	
 session_start();
-header('location:includes/login.php');
+header('location:../includes/login.php');
 
 
 $con = mysqli_connect('localhost', 'root','');

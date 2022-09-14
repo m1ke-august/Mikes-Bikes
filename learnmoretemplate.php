@@ -28,16 +28,50 @@
                            Online Store
                         </button>
                         <div class="dropdown-menu dropdownbtnoptions" aria-labelledby="dropdownMenuButton">
-                          <p class="dropdown-item dropdownmenutext" href="#">Bikes</p>
+                          <p class="dropdown-item dropdownmenutext" href="includes/bikes.php">Bikes</p>
                           <p class="dropdown-item dropdownmenutext" href="#">Parts</p>
                           <p class="dropdown-item dropdownmenutext" href="#">Gear & Accessories</p>
                         </li>
-                        <li><a href="includes/trails.php">Trails</a></li>
-                        <li><a href="includes/tipsandtricks.php">Tips & Tricks</a></li>
+                        <li><a class="a" href="includes/trails.php">Trails</a></li>
+                        <li><a class="a" href="includes/tipsandtricks.php">Tips & Tricks</a></li>
                     </ul>
                 </nav>
-                <a href="../database/logout.php"><button class="button">Logout</button></a>
+                <a href="database/logout.php"><button class="button">Logout</button></a>
 
             </div>
         </header>
+
+
+            <!-- Template Code here --> 
+                   
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class=" carouselsize carousel-inner" >
+            <div class="carousel-item active ">
+            <img class="d-block w-100 carousel" src="images/topfuel.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100 carousel" src="images/topfuel.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100 carousel" src="images/topfuel.jpg" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev carousel-control-prev2" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next carousel-control-next2" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        </div>
+
+        <div>
+            <h class="heading">Bike name here</h>
+            <p class="description" >Enter description in here</p>
+        </div>
+        <div>
+            <a href="#"><button class="buynow">Buy Now</button></a>
+            <a><button onclick="history.back()" class="goback">Go Back</button></a>
+        </div>
 </html>

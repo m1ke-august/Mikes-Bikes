@@ -1,12 +1,3 @@
-<?php
-	
-session_start();
-if(!isset($_SESSION['username'])){
-}	
-	
-	
-?>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -37,16 +28,15 @@ if(!isset($_SESSION['username'])){
                            Online Store
                         </button>
                         <div class="dropdown-menu dropdownbtnoptions" aria-labelledby="dropdownMenuButton">
-                          <p class="dropdown-item dropdownmenutext" href="#">Bikes</p>
-                          <p class="dropdown-item dropdownmenutext" href="#">Parts</p>
-                          <p class="dropdown-item dropdownmenutext" href="#">Gear & Accessories</p>
+                          <a class="dropdown-item dropdownmenutext" href="bikes.php">Bikes</a>
+                          <a class="dropdown-item dropdownmenutext" href="#">Parts</a>
+                          <a class="dropdown-item dropdownmenutext" href="#">Gear & Accessories</a>
                         </li>
-                        <li><a href="includes/trails.html">Trails</a></li>
-                        <li><a href="includes/tipsandtricks.html">Tips & Tricks</a></li>
+                        <li><a class="a" href="trails.php">Trails</a></li>
+                        <li><a class="a" href="tipsandtricks.php">Tips & Tricks</a></li>
                     </ul>
                 </nav>
-                
-                
+                <a href="../database/logout.php"><button class="button">Logout</button></a>
 
             </div>
         </header>

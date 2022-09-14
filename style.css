@@ -5,12 +5,16 @@ body{
     font-weight:500;
 }
 
+.body2 {
+    margin: 10px;
+}
+
 .background{
-    background-color:rgb(182, 181, 181);
+    background-color:rgb(134, 134, 134);
 }
 
 .carouselbg{
-    background-color:rgb(182, 181, 181);
+    background-color:rgb(134, 134, 134);
 }
 
 .container{
@@ -61,7 +65,7 @@ nav li{
 }
 
 
-nav a{
+.a{
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -69,12 +73,12 @@ nav a{
 }
 
 
-nav a:hover{
+.a:hover{
     color: #f4d06f;
 }
 
 
-nav a::before{
+.a::before{
     content: '';
     display: block;
     height: 5px;
@@ -87,7 +91,7 @@ nav a::before{
     width: 0%;
 }
 
-nav a:hover::before{
+.a:hover::before{
     width: 100%;
 
 }
@@ -132,12 +136,13 @@ nav a:hover::before{
     width: 550px;
     height:auto;
     position: relative;
-    left:13%;
-    top:25px;
+    left:12%;
+    top:55px;
     background-color:#686666;
     border-radius: 15px;
     padding: 15px 8px;
     margin-bottom: 20px;
+
 }
 
 
@@ -149,8 +154,9 @@ nav a:hover::before{
 .loginhead{
     color: white;
     position: relative;
-    left: 15%;
-    top: 25px;
+    left: 14%;
+    top: 55px;
+
 }
 
 .warningtxt{
@@ -313,9 +319,15 @@ p5{
 }
 
 .history{
-    font-size: 20px;
+    font-size: 21px;
     display: inline-block;
-    width: 400px;
+    width: 500px;
+}
+
+.siteinfo{
+        font-size: 21px;
+        display: inline-block;
+        width: 500px;
 }
 
 .historyheader{
@@ -328,22 +340,143 @@ p5{
 }
 
 .historybox{
-    width: 550px;
-    height: 500px;
-    background-color: red;
+    width: 650px;
+    height: 400px;
+    background-color: #f4d06f;
     position: relative;
-    right: 150px;
+    right: 100px;
     top: 12px;
     border-radius: 15px;
+    color: black;
+    font-size: 11px;
+}
+
+.sitebox{
+    width: 650px;
+    height: 400px;
+    background-color: #f4d06f;
+    position: relative;
+    left: 100px;
+    top: 12px;
+    border-radius: 15px;
+    color: black;
+    font-size: 11px;
+}
+
+.logininfo{
+    position: relative;
+    left: 53%;
+    bottom: 300px;
+    text-decoration: underline;
+    font-size: 45px;
+    padding-top: 25px;
 
 }
 
-.historyboxx{
-    width: 550px;
-    height: 500px;
-    background-color: red;
+.loginlist{
     position: relative;
-    left: 150px;
-    top: 12px;
-    border-radius: 15px;
+    left: 53%;
+    bottom: 250px;
+    font-size: 20px;
 }
+
+
+.shop{
+    background: transparent;
+}
+
+.specialized{
+    font-size: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: green;
+    position: relative;
+    left: 45%;
+    top: 10px;
+    background-color: red;
+}
+
+
+.carouselsize{
+    width: 600px;
+    height: 600px;
+    position:relative;
+    top: 35px;
+    left: 35px;
+
+}
+
+.carousel-control-prev2{
+    top: 76%;
+    left: 10%;
+    background-color: #344407;
+    width: 50px;
+    height: 30px;
+    border-radius:5px;
+}
+
+.carousel-control-next2{
+    top:76%;
+    right: 68%;
+    background-color: #344407;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.heading{
+    font-size: 30px;
+    position: fixed;
+    left: 63%;
+    bottom: 75%;
+    text-decoration:underline;
+}
+
+.description{
+    font-size: 19px;
+    position: fixed;
+    width: 500px;
+    left: 56%;
+    top: 26%;
+}
+
+.buynow{
+    border: none;
+    background-color:#d6a419;
+    width:180px;
+    height:50px;
+    position: fixed;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    float: right;
+    top: 81%;
+    left: 14.5%;
+}
+
+.buynow:hover{
+    background-color: #d6a419;
+    opacity: 0.7;
+    transition: 0.3s ease 0s;
+}
+
+.goback{
+    border: none;
+    background-color:#d6a419;
+    width:150px;
+    height:50px;
+    position: fixed;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    float: right;
+    top: 17%;
+    left: 88%;
+}
+
+.goback:hover{
+    background-color: #d6a419;
+    opacity: 0.7;
+    transition: 0.3s ease 0s;
+}
+

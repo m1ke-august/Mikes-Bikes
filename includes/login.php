@@ -31,16 +31,16 @@
                            <p class="dropdown-item dropdownmenutext" href="#">Parts</p>
                            <p class="dropdown-item dropdownmenutext" href="#">Gear & Accessories</p>
                          </li>
-                        <li><a href="trails.html">Trails</a></li>
-                        <li><a href="tipsandtricks.html">Tips & Tricks</a></li>
+                        <li><a href="trails.php">Trails</a></li>
+                        <li><a href="tipsandtricks.php">Tips & Tricks</a></li>
                     </ul>
                 </nav>
-                <a href="login.html"><button class="button">Login</button></a>
+
 
             </div>
         </header>
-        <p5 class="loginhead">Login</p5>
-        <form action="../validation.php" method="post" class="loginform ">
+        <p5 class="loginhead loginquickadjust ">Login</p5>
+        <form action="../database/validation.php" method="post" class="loginform">
             <small id="emailHelp" class="form-text warningtxt">We'll never share your login credentials with others.</small>
 
             <div class="form-group">
@@ -59,5 +59,12 @@
             <a><button type="submit" class="btn loginbtn">Login</button></a>
         </form>
       
+    <h2 class="logininfo loginquickadjust">Benefits of logging in:</h2>
+    <li class="loginlist">You are able to start using the site to its full potential</li>
+    <li class="loginlist">You can use the online shopping tool easier</li>
+    <li class="loginlist">You can save your purchase info to save time</li>
+    <li class="loginlist">You can save your shipping info to save some more time</li>
+    <li class="loginlist">All reviews you write will be saved to your account </li>
+    <li class="loginlist">Logging in means that all your cart items will be saved if you decide to log out</li>
     </body>
 </html>

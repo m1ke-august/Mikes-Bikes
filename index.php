@@ -38,15 +38,15 @@ if(!isset($_SESSION['user'])){
                            Online Store
                         </button>
                         <div class="dropdown-menu dropdownbtnoptions" aria-labelledby="dropdownMenuButton">
-                          <p class="dropdown-item dropdownmenutext" href="#">Bikes</p>
-                          <p class="dropdown-item dropdownmenutext" href="#">Parts</p>
-                          <p class="dropdown-item dropdownmenutext" href="#">Gear & Accessories</p>
+                          <a class="dropdown-item dropdownmenutext" href="includes/bikes.php">Bikes</a>
+                          <a class="dropdown-item dropdownmenutext" href="#">Parts</a>
+                          <a class="dropdown-item dropdownmenutext" href="#">Gear & Accessories</a>
                         </li>
-                        <li><a href="includes/trails.html">Trails</a></li>
-                        <li><a href="includes/tipsandtricks.html">Tips & Tricks</a></li>
+                        <li><a class="a" href="includes/trails.php">Trails</a></li>
+                        <li><a class="a" href="includes/tipsandtricks.php">Tips & Tricks</a></li>
                     </ul>
                 </nav>
-                <a href="logout.php"><button class="button">Logout</button></a>
+                <a href="database/logout.php"><button class="button">Logout</button></a>
 
             </div>
         </header>
@@ -61,18 +61,18 @@ if(!isset($_SESSION['user'])){
                 <div class="carousel-item active ">
                   <img class="d-block w-100 carousel" src="images/carousel1.png" alt="First slide">
                   <div class="carousel-caption d-none d-md-block">
-                    <a href="login.html"><button class="carouselshopbtn">Shop Bikes</button></a>
+                    <a href="includes/bikes.php"><button class="carouselshopbtn">Shop Bikes</button></a>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img class="d-block w-100 carousel" src="images/carousel2.png" alt="Second slide">
                   <div class="carousel-caption d-none d-md-block">
-                    <a href="login.html"><button class="carouselshopbtn">Shop Accessories</button></a>
+                    <a href="#"><button class="carouselshopbtn">Shop Accessories</button></a>
                   </div>                </div>
                 <div class="carousel-item">
                   <img class="d-block w-100 carousel" src="images/carousel3.png" alt="Third slide">
                   <div class="carousel-caption d-none d-md-block">
-                    <a href="login.html"><button class="carouselshopbtn">Shop Parts</button></a>
+                    <a href="#"><button class="carouselshopbtn">Shop Parts</button></a>
                   </div>
                 </div>
               </div>
@@ -91,9 +91,13 @@ if(!isset($_SESSION['user'])){
           <h2 class="historyheader">Mikes Bikes History</h2>
           <p1 class="history">Mikes Bikes was established in 2022 by 3 Rongotai College Year 13 students as a project for their programming class. These students had the ambition to make a mountain bike website that could be a one stop shop for all riders with skill levels from beginners to professionals. The students goal for the site was to ensure that all riders are able to benefit from the site with ease and don’t have to go to other sources in order to find products or relevant information about mountain biking. </p1>
         </div>
-        <div class="col-sm-6 float-right historyboxx">
-          <h2 class="historyheader">Mikes Bikes History</h2>
-          <p1 class="history">Mikes Bikes was established in 2022 by 3 Rongotai College Year 13 students as a project for their programming class. These students had the ambition to make a mountain bike website that could be a one stop shop for all riders with skill levels from beginners to professionals. The students goal for the site was to ensure that all riders are able to benefit from the site with ease and don’t have to go to other sources in order to find products or relevant information about mountain biking. </p1>
+        <div class="col-sm-6 float-right sitebox">
+          <h2 class="historyheader">What is on our site</h2>
+          <p1 class="siteinfo">On Mikes Bikes, we ensure a quality service. This is what we do:</p1>
+          <li class="siteinfo">We have an Online Store where you can buy bikes, parts and accessories.</li>
+          <li class="siteinfo">We have a Trails page where you can find trails across Wellington to ride</li>
+          <li class="siteinfo">We have a Tips & Tricks page where you can learn new skills that can help with your riding</li>
+          <li class="siteinfo">We have reviews that allow you to be able to read and write opinions on different products and trails</li>
         </div>
       </div>
       

@@ -22,19 +22,20 @@
                 <img src="../images/logo.png" alt="logo" class="logo">
                 <nav>
                     <ul>
+                        
                         <li><button class="btn dropdown-toggle dropdownbtn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Online Store
                          </button>
                          <div class="dropdown-menu dropdownbtnoptions" aria-labelledby="dropdownMenuButton">
-                           <p class="dropdown-item dropdownmenutext" href="#">Bikes</p>
-                           <p class="dropdown-item dropdownmenutext" href="#">Parts</p>
-                           <p class="dropdown-item dropdownmenutext" href="#">Gear & Accessories</p>
+                           <a class="dropdown-item dropdownmenutext" href="bikes.php">Bikes</a>
+                           <a class="dropdown-item dropdownmenutext" href="#">Parts</a>
+                           <a class="dropdown-item dropdownmenutext" href="#">Gear & Accessories</a>
                          </li>
-                        <li><a href="trails.html">Trails</a></li>
-                        <li><a href="tipsandtricks.html">Tips & Tricks</a></li>
+                        <li><a  class="a" href="trails.php">Trails</a></li>
+                        <li><a  class="a" href="tipsandtricks.php">Tips & Tricks</a></li>
                     </ul>
                 </nav>
-                <a href="login.html"><button class="button">Login</button></a>
+                <a href="../database/logout.php"><button class="button">Logout</button></a>
 
             </div>
         </header>

@@ -23,10 +23,10 @@ $num = mysqli_num_rows($result);
 
 if($num == 1) {
 	$_SESSION['user'] = $user;
-	header('location:index.php');
+	header('location:../index.php');
 
 }else{
-	header('location:includes/login.php');
+	header('location:../includes/login.php');
 }	
 	
 ?>	
