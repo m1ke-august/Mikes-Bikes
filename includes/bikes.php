@@ -166,6 +166,68 @@
         </div>
         </div>
 
+        <div class="shop">
+    <p2 class="specialized">Giant</p2>
+    <!-- Inner -->
+    <div class="carousel-inner py-4">
+        <!-- Single item -->
+        <div class="carousel-item active ">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-4">
+                <div class="card">
+                <img
+                    src="../images/moreinfo/fathom/fathom1.jpg"
+                    class="card-img-top"
+                    alt=""
+                />
+                <div class="card-body ">
+                    <h5 class="card-title">Fathom 29 1</h5>
+                    <p class="card-text">
+                    The Marlin 8 Gen 2 is a Race-Ready Mountain bike that won't break the bank. The smooth, lightweight RockShox fork at the front, the tubeless-ready wheels ranging from 26 to 29 inches in diameter and wide-range 1 by drive train makes this model the best choice for new riders who want a fast hardtail that will hold its own against other higher-end race bikes that cost significantly mroe. At only $1,499.00 it is a steal. Click below to learn more!
+                    </p>
+                    <a href="#!" class="btn btn-primary">Learn More</a>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 d-none d-lg-block">
+                <div class="card">
+                <img
+                    src="../images/topfuel.jpg"
+                    class="card-img-top"
+                    alt=""
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Trance X Advanced E+ 0</h5>
+                    <p class="card-text">
+                    The Top Fuel 9.8 XT from Trek is a Full Suspension Mountain Bike for those who are fearless, confident and maniac riders Not for parts nor for one style of riding. It combines a high-end parts package with a low-weight carbon frame for one unbelievably fun right that's fast on flow and fun to ride on techy singletrack. At a extreme price of $10,699.00 you get a bike that will last for decades. Click below to learn more!
+                    </p>
+                    <a href="../learnmoretemplate.php" class="btn btn-primary">Learn More</a>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 d-none d-lg-block">
+                <div class="card">
+                <img
+                    src="../images/fuelexe.jpg"
+                    class="card-img-top"
+                    alt=""
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Stance 29 2</h5>
+                    <p class="card-text">
+                    The Fuel EXe 9.5 is one of the best by Trek.  It features a magnificient Carbok Fiber frame and a Compact Motor that keeps the ride light, lively and quiet while getting thebenefit of pedal assiston long climbs, and the playful feel of a traditional mountain bike on descents. At the decent price of only $9,999.00 you get a extraordinary E-Mountain Bike that shreds the uphill and downhill. Click below to learn more!
+                    </p>
+                    <a href="#!" class="btn btn-primary">Learn More</a>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+
      
 
     
