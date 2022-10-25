@@ -40,42 +40,21 @@
             </div>
         </header>
         <p5 class="loginhead loginquickadjust ">Login</p5>
-        <form action="../database/validation.php" method="post" class="loginform">
-            <small id="emailHelp" class="form-text warningtxt">We'll never share your login credentials with others.</small>
+        <form action="adminconnect.php" method="post" class="loginform">
 
             <div class="form-group">
                 <label for="user" class="logintxt">Username</label>
                 <input type ="user" class="form-control" id="user" name="user" placeholder="Enter Username">
             </div>
             <div class="form-group">
-                <label for="password" class="logintxt">Password</label>
-                <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                <label for="pass" class="logintxt">Password</label>
+                <input type="pass" class="form-control" id="pass" name="pass" placeholder="pass">
             </div>
-            <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label logintxt" for="exampleCheck1">Not a robot</label>
-                <a href="signup.php" class="anotherbutton">I don't have an account</a>                
-            </div>
+            
             <a><button type="submit" class="btn loginbtn">Login</button></a>
         </form>
       
-        <div class="text">
-        <p class="text_ov benefits">Hover over to see benefits of logging in</p> 
-        <div class="text__overlay text__overlay--primary">
-            <div class="text__title">Benefits Include:</div>
-            <li class="text__description">
-                You get a personal cart that can be seen across different devices.
-            </li>
-            <li class="text__description">
-                Purchase and Delivery details will be saved to your account.
-            </li>
-            <li class="text__description">
-                All reviews will be saved to your account.
-            </li>
-            <li class="text__description">
-                All orders will be kept on your account.
-            </li>
-        </div>
+    
     </div>
 
 </body>

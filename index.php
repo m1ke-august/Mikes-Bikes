@@ -30,8 +30,7 @@ if(!isset($_SESSION['user'])){
     <body class="background">
         <header> 
             <div class="container clearfix">
-
-                <img src="images/logo.png" alt="logo" class="logo">
+                <img src="images/logo.png" alt="logo" class="logo" >
                 <nav>
                     <ul>
                         <li><button class="btn dropdown-toggle dropdownbtn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -44,6 +43,8 @@ if(!isset($_SESSION['user'])){
                         </li>
                         <li><a class="a" href="includes/trails.php">Trails</a></li>
                         <li><a class="a" href="includes/tipsandtricks.php">Tips & Tricks</a></li>
+                        <li><a class="a" href="database/admin/admin.php"> Admin </a></li>
+
                     </ul>
                 </nav>
                 <a href="database/logout.php"><button class="button">Logout</button></a>
